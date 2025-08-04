@@ -47,34 +47,33 @@ pip install tensorflow numpy
 ## How to Run
 Clone this repository:
 
-```bash```
-Copy
-Edit
+```bash
+
 git clone https://github.com/yourusername/poetic-text-generator.git
 cd poetic-text-generator
 Launch the notebook:
-
+```
 
 ## ✍️ Sample Output
 
-Seed: "The stars above the sea"
-Generated: "The stars above the sea sang soft in silver air, where dreams and daylight flee..."
+- Seed: "The stars above the sea"
+- Generated: "The stars above the sea sang soft in silver air, where dreams and daylight flee..."
 
 ## ⚙️ Customization Options
-Change the training text (text_path) to your own poetry or literature
+- Change the training text (text_path) to your own poetry or literature
 
-Adjust sequence_length, temperature, and number of epochs
+- Adjust sequence_length, temperature, and number of epochs
 
-Use model = tf.keras.models.load_model('textgenerator.keras') to reuse the trained model
+- Use model = tf.keras.models.load_model('textgenerator.keras') to reuse the trained model
 
 ## 📚 Concepts Used
-LSTM-based sequence modeling
+- LSTM-based sequence modeling
 
-Character-level natural language generation
+- Character-level natural language generation
 
-Categorical sampling with temperature
+- Categorical sampling with temperature
 
-TensorFlow/Keras training and inference
+T- ensorFlow/Keras training and inference
 
 ## 🧑‍💻 Author
 Manan Sharma
