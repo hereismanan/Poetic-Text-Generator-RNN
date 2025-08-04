@@ -40,9 +40,9 @@ This project showcases a character-level Recurrent Neural Network (RNN) built us
 
 Install dependencies:
 
-```bash```
+```bash
 pip install tensorflow numpy
-
+```
 
 ## How to Run
 Clone this repository:
