@@ -2,10 +2,6 @@
 
 This project showcases a character-level Recurrent Neural Network (RNN) built using TensorFlow/Keras to generate poetic or creative English text. It uses a Long Short-Term Memory (LSTM) model trained on a sample corpus to generate new text one character at a time, learning the structure and rhythm of language patterns.
 
-## ✨ Demo
-
-> Give the model a seed phrase, and it continues the poem-like output in a stylistic tone based on its training data.
-
 ---
 
 ## 🧠 Model Overview
@@ -44,6 +40,8 @@ Install dependencies:
 pip install tensorflow numpy
 ```
 
+---
+
 ## How to Run
 Clone this repository:
 
@@ -51,13 +49,17 @@ Clone this repository:
 
 git clone https://github.com/yourusername/poetic-text-generator.git
 cd poetic-text-generator
-Launch the notebook:
+
 ```
+
+---
 
 ## ✍️ Sample Output
 
 - Seed: "The stars above the sea"
 - Generated: "The stars above the sea sang soft in silver air, where dreams and daylight flee..."
+
+---
 
 ## ⚙️ Customization Options
 - Change the training text (text_path) to your own poetry or literature
@@ -66,6 +68,8 @@ Launch the notebook:
 
 - Use model = tf.keras.models.load_model('textgenerator.keras') to reuse the trained model
 
+---
+
 ## 📚 Concepts Used
 - LSTM-based sequence modeling
 
@@ -73,10 +77,9 @@ Launch the notebook:
 
 - Categorical sampling with temperature
 
-T- ensorFlow/Keras training and inference
+- TensorFlow/Keras training and inference
+
+---
 
 ## 🧑‍💻 Author
 Manan Sharma
-LinkedIn
-GitHub
-
